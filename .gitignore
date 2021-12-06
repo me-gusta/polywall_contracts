@@ -6,3 +6,4 @@ build/
 reports/
 *.txt
 custom_cli.py
+.idea

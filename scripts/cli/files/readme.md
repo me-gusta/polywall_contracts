@@ -5,7 +5,7 @@ PolyWall is a plain-text file stored on the Polygon blockchain.
 There are 2^256-1 lines on this wall. Each line is 100 characters long.
 
 ## Is it free?
-Creation of new lines is always free.
+Creation of new lines is free.
 Each modification of a line increases the cost for editing by 0.01 MATIC.
 
 You are free to write whatever you like. The Wall will never be moderated. 
@@ -33,10 +33,10 @@ PolyWall CLI is simply a bunch of functions. It's made mainly for file upload.
 
 You can upload text files to the PolyWall
 
-1. Put your file into ``cli\files``
+1. Put your file into ``scripts\cli\files``
 2. Run
 ```
-brownie run .\cli\functions.py upload_file 0xWALL <ACCOUNT_NAME> <FILE_NAME> <FROM_LINE> --network polygon-main
+brownie run .\scripts\cli\cli.py upload_file 0xWALL <ACCOUNT_NAME> <FILE_NAME> <FROM_LINE> --network polygon-main
 ```
 
-Other functions are well documented in ``.\cli\main.py``
+Other functions are well documented in ``.\scripts\cli\cli.py``

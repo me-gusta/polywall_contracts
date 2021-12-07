@@ -1,19 +1,17 @@
-# PolyWall
-
 ## What is this?
-PolyWall is a plain-text file stored on the Polygon blockchain.
-There are 2^256-1 lines on this wall. Each line is 100 characters long.
+PolyWall is a plain-text file stored on the Polygon blockchain. There are 2^256-1 lines on this wall. Each line is 100 characters long.
 
 ## Is it free?
-Creation of new lines is free.
-Each modification of a line increases the cost for editing by 0.01 MATIC.
+Creation of new lines is free. Each modification of a line increases the cost for editing by 0.01 MATIC.
+If someone replaces your text you will receive 90% of what one has paid.
 
-You are free to write whatever you like. The Wall will never be moderated. 
-We believe that freedom of speech is one of the unalienable right for every man.
-Leave a message. It will be stored on-chain. Forever.
-
+## Any Rules?
+You are free to write whatever you like. The Wall will never be moderated. We believe that freedom of speech is one of the unalienable right for every man. Leave a message. It will be stored on-chain. Forever.
 Check out the [website](https://polywall.pw) to try it yourself.
 
+Also, you can use PolyWall CLI (on github) for uploading text files.
+
+---
 
 ## PolyWall CLI
 PolyWall CLI is simply a bunch of functions. It's made mainly for file upload.

@@ -11,6 +11,8 @@ Check out the [website](https://polywall.pw) to try it yourself.
 
 Also, you can use PolyWall CLI (on github) for uploading text files.
 
+Contract is deployed to the Polygon mainnet: [0x3F9C46cb59ba9Ea5E9b5F2863E6Df22b44B29887](https://polygonscan.com/address/0x3F9C46cb59ba9Ea5E9b5F2863E6Df22b44B29887)
+
 ---
 
 ## PolyWall CLI
